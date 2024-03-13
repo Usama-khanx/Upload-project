@@ -11,10 +11,11 @@
     <style>
 
         nav{
-            margin-top: 40px;
+            margin-top: 50px;
             margin-bottom: 40px;
-            background-color: skyblue;
-           height: 50px;
+            
+            background-color: black;
+           height: 30px;
             display: block;
         
       
@@ -23,7 +24,7 @@
             margin-bottom: 10px;
         }
         #ancor{
-            color: black;
+            color: white;
             padding: 15px;
             padding-top: 15px;
           
@@ -57,23 +58,37 @@
 <body>
 
     
-    <hr>
-   <strong><H1 style="background-color: black; color: white; text-align: center;">Home Page</H1></strong>
-   <hr>
-   <nav > 
-    <strong class="ancor">
-        
-    <a href="./skills/skill.html" id="ancor">Skill</a>
-    <a href="./projects/project.html" id="ancor">Projects</a>
-    <a href="./contact/contact.html" id="ancor">Contact-us</a>
-    
-</strong>
-</nav>
-    <h1>Introduction</h1>
+    <header>
+        <nav > 
+            <strong class="ancor">
+                
+                <a href="./skills/skill.html" id="ancor">Skill</a>
+                <a href="./projects/project.html" id="ancor">Projects</a>
+                <a href="./contact/contact.html" id="ancor">Contact-us</a>
+                
+            </strong>
+        </nav>
+        <hr>
+       <strong><H1 style="background-color: rgb(46, 19, 19); color: white; text-align: center;">Home Page</H1></strong>
+       <hr>
+</header>
+    <h1>My Portfolio</h1>
     <figure></figure>
     <img src="./contact/images/profile-img.jpg" alt="its a profile pic" width="300" title="profile image">
     <figcaption>
-        <p>My name is Usama i am basically from <address style="display: inline;">Bannu lives in peshawar.</address> i am a student of BS-computer science at 5<sup>th</sup> semester in GDC
+       <h1> <p>My Name Is Usama 
+            <!-- adding voice using javascript -->
+            <script>
+                function play(){
+        
+                    var speak = document.getElementById('speak');
+                    speak.src = './images-sounds-videos/usama.m4a';
+                }
+            </script>
+                <audio autoplay id="speak" src=""></audio>
+               <input type="image" src="./images-sounds-videos/mic.PNG" width="25px" onclick="play()">
+            </h1>
+            i am basically from <address style="display: inline;">Bannu lives in peshawar.</address> i am a student of BS-computer science at 5<sup>th</sup> semester in GDC
             Hayat abad peshawar. 
             </p>
         </figcaption>
