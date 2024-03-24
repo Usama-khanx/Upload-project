@@ -1,0 +1,108 @@
+/* Home Page styling */
+nav{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    
+    background-color: black;
+   height: 30px;
+    display: block;
+
+
+}
+hr{
+    margin-bottom: 10px;
+}
+#ancor{
+    color: white;
+    padding: 15px;
+    padding-top: 15px;
+  
+    
+}
+#table-styling{
+    width: 100%;
+  }
+  table, thead, tbody, tfoot, tr, th, td{
+     border: 2px solid black;
+     border-collapse: collapse;
+   
+
+  }
+  
+  #dicipln{
+     width: 20%;
+  }
+  #institute{
+     width: 30%;
+  }
+  #title{
+     width: 20%;
+  }
+
+  /* skill page styling */
+  nav{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: black;
+    height: 30px;
+    display: block;
+
+
+}
+#ancor-tg{
+  
+    color: white;
+    padding: 15px;
+}
+table, thead, tbody, tfoot, tr, th, td{
+border: 2px solid black;
+border-collapse: collapse;
+}
+
+/* project page */
+nav{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: black;
+    height: 30px;
+    display: block;
+
+
+}
+#ancor-tg{
+  
+    color: white;
+    padding: 15px;
+}
+table, thead, tbody, tfoot, tr, th, td{
+border: 2px solid black;
+border-collapse: collapse;
+}
+
+/* contact page */
+nav{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    background-color: black;
+    height: 30px;
+    display: block;
+
+
+}
+#ancor-tg{
+  
+    color: white;
+    padding: 15px;
+   
+}
+
+/* Table styling */
+table, thead, tbody, tfoot, tr, th, td{
+border: 2px solid black;
+border-collapse: collapse;
+}
+
+table, thead, tbody, tfoot, tr, th, td{
+border: 2px solid black;
+border-collapse: collapse;
+}
